@@ -1,0 +1,30 @@
+syntax = "proto3";
+package videoaccess;
+option go_package = ".;videoaccess";
+option cc_generic_services = true;
+
+// 用戶传入的vid 列表
+message UserVidListRequest {
+  string uid = 1;
+  string device_info = 2;
+  repeated  int32 video_id = 3;
+}
+
+// 返回有效的vid 列表-
+message UserVideoListResponse {
+  string uid = 1;
+  repeated  int32 video_id = 2;
+}
+
+// 返回操作结果
+message OperResponse {
+  int32  ret_code = 1;
+  string ret_msg = 2;
+}
+
+service VideoAccess {
+  // 用户历史去重
+  rpc removalUserHistory(UserVidListRequest) returns (UserVideoListResponse);
+  // 设置用户已曝光的视频vid
+  rpc setUserHistory(UserVidListRequest) returns (OperResponse);
+}

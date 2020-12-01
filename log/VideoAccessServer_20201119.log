@@ -1,0 +1,91 @@
+2020/11/19 09:57:28 main.go:42: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 09:58:35 main.go:42: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 09:58:35 config.go:46: get redis instance fail:dial TCP: unknown network TCP
+2020/11/19 09:59:55 main.go:42: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 10:07:17 main.go:42: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 10:08:34 removal_user_history.go:12: into RemovalUserHistory...
+2020/11/19 10:08:34 removal_user_history.go:14: get req:uid:"123456"  device_info:"ADR"  video_id:123  video_id:456  video_id:789
+2020/11/19 10:08:34 removal_user_history.go:21: get key: 012
+2020/11/19 10:08:34 redis_oper.go:46: set Key : 123456  success
+2020/11/19 10:11:34 main.go:42: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 10:11:39 removal_user_history.go:12: into RemovalUserHistory...
+2020/11/19 10:11:39 removal_user_history.go:14: get req:uid:"123456" device_info:"ADR" video_id:123 video_id:456 video_id:789
+2020/11/19 10:11:39 removal_user_history.go:19: value: 0
+2020/11/19 10:11:39 removal_user_history.go:19: value: 1
+2020/11/19 10:11:39 removal_user_history.go:19: value: 2
+2020/11/19 10:11:39 removal_user_history.go:22: get key: 012
+2020/11/19 10:11:39 redis_oper.go:46: set Key : 123456  success
+2020/11/19 10:13:07 main.go:42: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 10:13:17 removal_user_history.go:12: into RemovalUserHistory...
+2020/11/19 10:13:17 removal_user_history.go:14: get req:uid:"123456"  device_info:"ADR"  video_id:123  video_id:456  video_id:789
+2020/11/19 10:13:17 removal_user_history.go:19: value: 123
+2020/11/19 10:13:17 removal_user_history.go:19: value: 456
+2020/11/19 10:13:17 removal_user_history.go:19: value: 789
+2020/11/19 10:13:17 removal_user_history.go:22: get key: 123456789
+2020/11/19 10:13:17 redis_oper.go:46: set Key : 123456  success
+2020/11/19 10:22:08 main.go:42: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 10:23:41 main.go:42: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 10:23:59 main.go:42: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 10:24:05 removal_user_history.go:12: into RemovalUserHistory...
+2020/11/19 10:24:05 removal_user_history.go:14: get req:uid:"123456"  device_info:"ADR"  video_id:123  video_id:456  video_id:789
+2020/11/19 10:24:05 removal_user_history.go:19: value: 123
+2020/11/19 10:24:05 removal_user_history.go:19: value: 456
+2020/11/19 10:24:05 removal_user_history.go:19: value: 789
+2020/11/19 10:24:05 removal_user_history.go:22: get key: 123456789
+2020/11/19 10:24:05 redis_oper.go:46: set Key : 123456  success
+2020/11/19 10:50:17 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 10:52:51 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 10:53:02 removal_user_history.go:11: into RemovalUserHistory...
+2020/11/19 10:53:02 removal_user_history.go:13: get req:uid:"123456"  device_info:"ADR"  video_id:123  video_id:456  video_id:789
+2020/11/19 10:53:02 mysql_oper.go:19: insert Sql
+2020/11/19 10:53:02 mysql_oper.go:25: res: {0xc000176360 0xc0001381c0}
+2020/11/19 10:57:43 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 10:57:58 removal_user_history.go:11: into RemovalUserHistory...
+2020/11/19 10:57:58 removal_user_history.go:13: get req:uid:"123456"  device_info:"ADR"  video_id:123  video_id:456  video_id:789
+2020/11/19 10:57:58 mysql_oper.go:19: insert Sql
+2020/11/19 10:57:58 mysql_oper.go:25: res: {0xc0000c6360 0xc00002c200}
+2020/11/19 10:57:58 mysql_oper.go:31:  select sql...
+2020/11/19 10:57:58 mysql_oper.go:42: get name : hawrk ,age: 30
+2020/11/19 10:57:58 mysql_oper.go:42: get name : hawrk2 ,age: 34
+2020/11/19 10:57:58 mysql_oper.go:42: get name : hawrk100 ,age: 40
+2020/11/19 10:57:58 mysql_oper.go:42: get name : hawrk100 ,age: 40
+2020/11/19 10:57:58 mysql_oper.go:45: get result:map[hawrk:30 hawrk100:40 hawrk2:34]
+2020/11/19 11:50:56 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 11:52:07 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 11:53:30 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 11:55:22 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 11:55:47 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 13:56:27 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 13:58:17 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 13:59:24 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 13:59:51 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 14:26:43 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 14:28:16 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 14:28:32 removal_user_history.go:12: into RemovalUserHistory...
+2020/11/19 14:28:32 removal_user_history.go:14: get req:uid:"123456" device_info:"ADR" video_id:123 video_id:456 video_id:789
+2020/11/19 14:28:32 removal_user_history.go:22: get value: 123456789
+2020/11/19 14:28:32 redis_oper.go:46: set Key : 123456  success
+2020/11/19 14:28:32 mysql_oper.go:19: insert Sql
+2020/11/19 14:28:32 mysql_oper.go:25: res: {0xc0000a2360 0xc00002c200}
+2020/11/19 14:28:32 mysql_oper.go:30:  select sql...
+2020/11/19 14:28:32 mysql_oper.go:41: get name : hawrk ,age: 30
+2020/11/19 14:28:32 mysql_oper.go:41: get name : hawrk2 ,age: 34
+2020/11/19 14:28:32 mysql_oper.go:41: get name : hawrk100 ,age: 40
+2020/11/19 14:28:32 mysql_oper.go:41: get name : hawrk100 ,age: 40
+2020/11/19 14:28:32 mysql_oper.go:41: get name : hawrk100 ,age: 40
+2020/11/19 14:28:32 mysql_oper.go:44: get result:map[hawrk:30 hawrk100:40 hawrk2:34]
+2020/11/19 14:31:53 main.go:43: >>>>>>>>>>>>>service begin>>>>>>>>>>>
+2020/11/19 14:32:03 removal_user_history.go:12: into RemovalUserHistory...
+2020/11/19 14:32:03 removal_user_history.go:14: get req:uid:"123456" device_info:"ADR" video_id:123 video_id:456 video_id:789
+2020/11/19 14:32:03 removal_user_history.go:22: get value: 123456789
+2020/11/19 14:32:03 redis_oper.go:31: set Key : 123456  success
+2020/11/19 14:32:03 mysql_oper.go:19: insert Sql
+2020/11/19 14:32:03 mysql_oper.go:25: res: {0xc000142bd0 0xc00002d070}
+2020/11/19 14:32:03 mysql_oper.go:30:  select sql...
+2020/11/19 14:32:03 mysql_oper.go:41: get name : hawrk ,age: 30
+2020/11/19 14:32:03 mysql_oper.go:41: get name : hawrk2 ,age: 34
+2020/11/19 14:32:03 mysql_oper.go:41: get name : hawrk100 ,age: 40
+2020/11/19 14:32:03 mysql_oper.go:41: get name : hawrk100 ,age: 40
+2020/11/19 14:32:03 mysql_oper.go:41: get name : hawrk100 ,age: 40
+2020/11/19 14:32:03 mysql_oper.go:41: get name : hawrk100 ,age: 40
+2020/11/19 14:32:03 mysql_oper.go:44: get result:map[hawrk:30 hawrk100:40 hawrk2:34]
